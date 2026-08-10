@@ -1,0 +1,23 @@
+.grid-container{
+    display:grid;
+    padding-top:5vh;
+    width:800px;
+    margin:auto;
+    justify-content:center;
+    height:auto;
+    gap:10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:1fr 1fr 1fr;
+}
+
+.grid-items{
+    height:200px;
+    border:2px solid red;
+}
+
+.heading{
+    color:red;
+   background-color:yellow;
+    display:flex;
+    justify-content:center;
+}
