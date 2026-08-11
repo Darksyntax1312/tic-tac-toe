@@ -67,3 +67,34 @@ inneritems9.style.display = "flex";
 inneritems9.style.flexDirection = "row";
 inneritems9.style.justifyContent = "center";
 inneritems9.style.alignItems = "center";
+
+
+div1.onclick = () => {
+    if (iswin) return
+    if (player.innerText == "Player-1" && div1.innerText == "") {
+        div1.innerText = "X";
+        div1.style.fontSize = "200px";
+        player.innerText = "Player-2";
+    }
+    else if (player.innerText == "Player-2" && div1.innerText == "") {
+        div1.innerText = "O";
+        div1.style.fontSize = "200px";
+        div1.style.color = "red";
+        player.innerText = "Player-1";
+    }
+}
+
+div2.onclick = () => {
+    if (iswin) return;
+    if (player.innerText == "Player-1" && div2.innerText == "") {
+        div2.innerText = "X";
+        div2.style.fontSize = "200px";
+        player.innerText = "Player-2";
+    }
+    else if (player.innerText == "Player-2" && div2.innerText == "") {
+        div2.innerText = "O";
+        div2.style.fontSize = "200px";
+        div2.style.color = "red";
+        player.innerText = "Player-1";
+    }
+}
