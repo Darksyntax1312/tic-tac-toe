@@ -88,7 +88,19 @@ Feel free to customize the game:
 
 # Tic Tac Toe - Day 2
 
-coming soon....
+## What I built today:
+- Added click handlers for grid positions
+- Implemented player turn switching (Player-1 = X, Player-2 = O)
+- X appears in black, O appears in red
+- Players can now place marks on the board
+
+## Next steps:
+- Add click handlers for remaining 7 boxes
+- Start working on win detection
+
+
+# Tic Tac Toe - Day 3 update coming soon....
+
 
 Project Link: coming soon....
 
