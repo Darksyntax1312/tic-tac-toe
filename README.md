@@ -99,8 +99,20 @@ Feel free to customize the game:
 - Start working on win detection
 
 
-# Tic Tac Toe - Day 3 update coming soon....
+# Tic Tac Toe - Day 3
 
+## What I built today:
+- Added click functionality to all 9 grid boxes
+- Full board is now interactive
+- Players can take turns placing X and O anywhere
+
+## Next steps:
+- Implement win condition checking
+- Need to check rows, columns, and diagonals
+
+## Tic Tac Toe - day 4
+
+coming soon....
 
 Project Link: coming soon....
 
