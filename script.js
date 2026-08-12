@@ -98,3 +98,108 @@ div2.onclick = () => {
         player.innerText = "Player-1";
     }
 }
+
+div3.onclick = () => {
+    if (iswin) return;
+    if (player.innerText == "Player-1" && div3.innerText == "") {
+        div3.innerText = "X";
+        div3.style.fontSize = "200px";
+        player.innerText = "Player-2";
+    }
+    else if (player.innerText == "Player-2" && div3.innerText == "") {
+        div3.innerText = "O";
+        div3.style.fontSize = "200px";
+        div3.style.color = "red";
+        player.innerText = "Player-1";
+    }
+}
+
+div4.onclick = () => {
+    if (iswin) return;
+    if (player.innerText == "Player-1" && div4.innerText == "") {
+        div4.innerText = "X";
+        div4.style.fontSize = "200px";
+        player.innerText = "Player-2";
+    }
+    else if (player.innerText == "Player-2" && div4.innerText == "") {
+        div4.innerText = "O";
+        div4.style.fontSize = "200px";
+        div4.style.color = "red";
+        player.innerText = "Player-1";
+    }
+}
+
+div5.onclick = () => {
+    if (iswin) return;
+    if (player.innerText == "Player-1" && div5.innerText == "") {
+        div5.innerText = "X";
+        div5.style.fontSize = "200px";
+        player.innerText = "Player-2";
+    }
+    else if (player.innerText == "Player-2" && div5.innerText == "") {
+        div5.innerText = "O";
+        div5.style.fontSize = "200px";
+        div5.style.color = "red";
+        player.innerText = "Player-1";
+    }
+}
+
+div6.onclick = () => {
+    if (iswin) return;
+    if (player.innerText == "Player-1" && div6.innerText == "") {
+        div6.innerText = "X";
+        div6.style.fontSize = "200px";
+        player.innerText = "Player-2";
+    }
+    else if (player.innerText == "Player-2" && div6.innerText == "") {
+        div6.innerText = "O";
+        div6.style.fontSize = "200px";
+        div6.style.color = "red";
+        player.innerText = "Player-1";
+    }
+}
+
+div7.onclick = () => {
+    if (iswin) return;
+    if (player.innerText == "Player-1" && div7.innerText == "") {
+        div7.innerText = "X";
+        div7.style.fontSize = "200px";
+        player.innerText = "Player-2";
+    }
+    else if (player.innerText == "Player-2" && div7.innerText == "") {
+        div7.innerText = "O";
+        div7.style.fontSize = "200px";
+        div7.style.color = "red";
+        player.innerText = "Player-1";
+    }
+}
+
+div8.onclick = () => {
+    if (iswin) return;
+    if (player.innerText == "Player-1" && div8.innerText == "") {
+        div8.innerText = "X";
+        div8.style.fontSize = "200px";
+        player.innerText = "Player-2";
+    }
+    else if (player.innerText == "Player-2" && div8.innerText == "") {
+        div8.innerText = "O";
+        div8.style.fontSize = "200px";
+        div8.style.color = "red";
+        player.innerText = "Player-1";
+    }
+}
+
+div9.onclick = () => {
+    if (iswin) return;
+    if (player.innerText == "Player-1" && div9.innerText == "") {
+        div9.innerText = "X";
+        div9.style.fontSize = "200px";
+        player.innerText = "Player-2";
+    }
+    else if (player.innerText == "Player-2" && div9.innerText == "") {
+        div9.innerText = "O";
+        div9.style.fontSize = "200px";
+        div9.style.color = "red";
+        player.innerText = "Player-1";
+    }
+}
