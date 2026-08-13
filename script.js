@@ -82,6 +82,7 @@ div1.onclick = () => {
         div1.style.color = "red";
         player.innerText = "Player-1";
     }
+    conditions() 
 }
 
 div2.onclick = () => {
@@ -97,6 +98,7 @@ div2.onclick = () => {
         div2.style.color = "red";
         player.innerText = "Player-1";
     }
+    conditions() 
 }
 
 div3.onclick = () => {
@@ -112,6 +114,7 @@ div3.onclick = () => {
         div3.style.color = "red";
         player.innerText = "Player-1";
     }
+    conditions() 
 }
 
 div4.onclick = () => {
@@ -127,6 +130,7 @@ div4.onclick = () => {
         div4.style.color = "red";
         player.innerText = "Player-1";
     }
+    conditions() 
 }
 
 div5.onclick = () => {
@@ -142,6 +146,7 @@ div5.onclick = () => {
         div5.style.color = "red";
         player.innerText = "Player-1";
     }
+    conditions() 
 }
 
 div6.onclick = () => {
@@ -157,6 +162,7 @@ div6.onclick = () => {
         div6.style.color = "red";
         player.innerText = "Player-1";
     }
+    conditions() 
 }
 
 div7.onclick = () => {
@@ -172,6 +178,7 @@ div7.onclick = () => {
         div7.style.color = "red";
         player.innerText = "Player-1";
     }
+    conditions() 
 }
 
 div8.onclick = () => {
@@ -187,6 +194,7 @@ div8.onclick = () => {
         div8.style.color = "red";
         player.innerText = "Player-1";
     }
+    conditions() 
 }
 
 div9.onclick = () => {
@@ -201,5 +209,36 @@ div9.onclick = () => {
         div9.style.fontSize = "200px";
         div9.style.color = "red";
         player.innerText = "Player-1";
+    }
+    conditions() 
+}
+
+
+function conditions(){
+    if (div1.innerText == "O" && div2.innerText == "O" && div4.innerText == "O") {
+        alert("Winner player 2");
+        iswin = true;
+    }
+    else if (div1.innerText == "X" && div2.innerText == "X" && div4.innerText == "X") {
+        alert("Winner player 1");
+        iswin = true;
+    }
+
+    if (div4.innerText == "O" && div5.innerText == "O" && div7.innerText == "O") {
+        alert("Winner player 2")
+        iswin = true;
+    }
+    else if (div4.innerText == "X" && div5.innerText == "X" && div7.innerText == "X") {
+        alert("Winner player 1");
+        iswin = true;
+    }
+
+    if (div1.innerText == "O" && div3.innerText == "O" && div6.innerText == "O") {
+        alert("Winner player 2")
+        iswin = true;
+    }
+    else if (div1.innerText == "X" && div3.innerText == "X" && div6.innerText == "X") {
+        alert("Winner player 1");
+        iswin = true;
     }
 }
