@@ -110,7 +110,23 @@ Feel free to customize the game:
 - Implement win condition checking
 - Need to check rows, columns, and diagonals
 
-## Tic Tac Toe - day 4
+# Tic Tac Toe - Day 4
+
+## What I built today:
+- Added win detection function
+- Game now checks for winning combinations
+- Alerts when a player wins
+
+## BUGS FOUND:
+- Win detection seems to be checking wrong combinations
+- Some wins aren't being detected
+- No draw condition implemented yet
+
+## Next steps:
+- Fix win detection logic
+- Add draw condition
+
+# Tic Tac Toe - Day 5 
 
 coming soon....
 
