@@ -126,7 +126,23 @@ Feel free to customize the game:
 - Fix win detection logic
 - Add draw condition
 
-# Tic Tac Toe - Day 5 
+# Tic Tac Toe - Day 5
+
+## What I built today:
+- Fixed all win detection combinations
+- Added draw condition
+- Game now correctly identifies winners
+- All rows, columns, and diagonals work
+
+## BUGS FOUND:
+- Draw alert shows even when someone wins (because it runs after win checks)
+- Need to prevent draw check if someone already won
+
+## Next steps:
+- Fix draw condition to only trigger when no winner
+- Add restart button
+
+# Tic Tac Toe - Day 6
 
 coming soon....
 
