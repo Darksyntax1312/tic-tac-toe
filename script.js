@@ -215,30 +215,89 @@ div9.onclick = () => {
 
 
 function conditions(){
-    if (div1.innerText == "O" && div2.innerText == "O" && div4.innerText == "O") {
+ 
+    if (div1.innerText == "O" && div2.innerText == "O" && div3.innerText == "O") {
         alert("Winner player 2");
         iswin = true;
     }
-    else if (div1.innerText == "X" && div2.innerText == "X" && div4.innerText == "X") {
+    else if (div1.innerText == "X" && div2.innerText == "X" && div3.innerText == "X") {
         alert("Winner player 1");
         iswin = true;
     }
 
-    if (div4.innerText == "O" && div5.innerText == "O" && div7.innerText == "O") {
+    else if (div4.innerText == "O" && div5.innerText == "O" && div6.innerText == "O") {
         alert("Winner player 2")
         iswin = true;
     }
-    else if (div4.innerText == "X" && div5.innerText == "X" && div7.innerText == "X") {
+    else if (div4.innerText == "X" && div5.innerText == "X" && div6.innerText == "X") {
         alert("Winner player 1");
         iswin = true;
     }
 
-    if (div1.innerText == "O" && div3.innerText == "O" && div6.innerText == "O") {
+    else if (div7.innerText == "O" && div8.innerText == "O" && div9.innerText == "O") {
         alert("Winner player 2")
         iswin = true;
     }
-    else if (div1.innerText == "X" && div3.innerText == "X" && div6.innerText == "X") {
+    else if (div7.innerText == "X" && div8.innerText == "X" && div9.innerText == "X") {
         alert("Winner player 1");
+        iswin = true;
+    }
+
+    else if (div1.innerText == "O" && div4.innerText == "O" && div7.innerText == "O") {
+        alert("Winner player 2")
+        iswin = true;
+    }
+    else if (div1.innerText == "X" && div4.innerText == "X" && div7.innerText == "X") {
+        alert("Winner player 1");
+        iswin = true;
+    }
+
+    else if (div2.innerText == "O" && div5.innerText == "O" && div8.innerText == "O") {
+        alert("Winner player 2")
+        iswin = true;
+    }
+    else if (div2.innerText == "X" && div5.innerText == "X" && div8.innerText == "X") {
+        alert("Winner player 1");
+        iswin = true;
+    }
+
+    else if (div3.innerText == "O" && div6.innerText == "O" && div9.innerText == "O") {
+        alert("Winner player 2")
+        iswin = true;
+    }
+    else if (div3.innerText == "X" && div6.innerText == "X" && div9.innerText == "X") {
+        alert("Winner player 1");
+        iswin = true;
+    }
+
+    else if (div1.innerText == "O" && div5.innerText == "O" && div9.innerText == "O") {
+        alert("Winner player 2")
+        iswin = true;
+    }
+    else if (div1.innerText == "X" && div5.innerText == "X" && div9.innerText == "X") {
+        alert("Winner player 1");
+        iswin = true;
+    }
+
+    else if (div3.innerText == "O" && div5.innerText == "O" && div7.innerText == "O") {
+        alert("Winner player 2")
+        iswin = true;
+    }
+    else if (div3.innerText == "X" && div5.innerText == "X" && div7.innerText == "X") {
+        alert("Winner player 1");
+        iswin = true;
+    }
+    if (
+        div1.innerText !== "" &&
+        div2.innerText !== "" &&
+        div3.innerText !== "" &&
+        div4.innerText !== "" &&
+        div5.innerText !== "" &&
+        div6.innerText !== "" &&
+        div7.innerText !== "" &&
+        div8.innerText !== "" &&
+        div9.innerText !== "") {
+        alert("It's a draw!");
         iswin = true;
     }
 }
