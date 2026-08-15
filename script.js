@@ -287,17 +287,78 @@ function conditions(){
         alert("Winner player 1");
         iswin = true;
     }
-    if (
-        div1.innerText !== "" &&
-        div2.innerText !== "" &&
-        div3.innerText !== "" &&
-        div4.innerText !== "" &&
-        div5.innerText !== "" &&
-        div6.innerText !== "" &&
-        div7.innerText !== "" &&
-        div8.innerText !== "" &&
-        div9.innerText !== "") {
-        alert("It's a draw!");
-        iswin = true;
-    }
+if (
+    div1.innerText !== "" &&
+    div2.innerText !== "" &&
+    div3.innerText !== "" &&
+    div4.innerText !== "" &&
+    div5.innerText !== "" &&
+    div6.innerText !== "" &&
+    div7.innerText !== "" &&
+    div8.innerText !== "" &&
+    div9.innerText !== "" &&
+    iswin == false) {  
+    alert("It's a draw!");
+    iswin = true;
+}
+
+    
+let divbtn = document.createElement("div");
+divbtn.style.paddingTop = "30px";
+divbtn.style.display = "flex";
+divbtn.style.flexDirection = "row";
+divbtn.style.justifyContent = "center";
+document.body.append(divbtn);
+
+let restart = document.createElement("button");
+restart.innerText = "Restart";
+
+restart.style.fontSize = "40px";
+restart.style.padding =" 10px 20px"
+restart.style.backgroundColor = '#0F172A';
+restart.style.color = '#06B6D4';
+restart.style.border = '2px solid #06B6D4';
+restart.style.borderRadius = '12px';
+restart.style.fontWeight = '700';
+restart.style.transition = 'all 0.4s cubic-bezier(0.4, 0, 0.2, 1)';
+
+restart.addEventListener('mouseenter', () => {
+  restart.style.backgroundColor = '#7C3AED';
+  restart.style.color = '#FFFFFF';
+  restart.style.borderColor = '#7C3AED';
+  restart.style.boxShadow = '0 0 20px rgba(124, 58, 237, 0.5)';
+});
+
+restart.addEventListener('mouseleave', () => {
+  restart.style.backgroundColor = '#0F172A';
+  restart.style.color = '#06B6D4';
+  restart.style.borderColor = '#06B6D4';
+  restart.style.boxShadow = 'none';
+});
+
+divbtn.append(restart);
+
+restart.onclick = () => {
+    div1.innerText = "";
+    div2.innerText = "";
+    div3.innerText = "";
+    div4.innerText = "";
+    div5.innerText = "";
+    div6.innerText = "";
+    div7.innerText = "";
+    div8.innerText = "";
+    div9.innerText = "";
+    
+    div1.style.color = "";
+    div2.style.color = "";
+    div3.style.color = "";
+    div4.style.color = "";
+    div5.style.color = "";
+    div6.style.color = "";
+    div7.style.color = "";
+    div8.style.color = "";
+    div9.style.color = "";
+    
+    iswin = false;
+    player.innerText = "Player-1"
 }
