@@ -144,6 +144,18 @@ Feel free to customize the game:
 
 # Tic Tac Toe - Day 6
 
+## What I built today:
+- Fixed draw condition (now only triggers when no winner)
+- Added restart button with custom styling
+- Hover effects on restart button
+- Reset functionality clears board and resets game state
+
+## Next steps:
+- Final polish and testing
+- Prepare for deployment
+
+# Tic Tac Toe - Day 7
+
 coming soon....
 
 Project Link: coming soon....
