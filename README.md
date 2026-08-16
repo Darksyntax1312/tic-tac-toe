@@ -154,12 +154,37 @@ Feel free to customize the game:
 - Final polish and testing
 - Prepare for deployment
 
-# Tic Tac Toe - Day 7
+# 🎮 Tic Tac Toe - Complete Project
+
+## Features
+- ✅ 3x3 grid with X and O
+- ✅ Turn-based gameplay (Player 1 = X, Player 2 = O)
+- ✅ Win detection for all rows, columns, and diagonals
+- ✅ Draw condition when board is full
+- ✅ Restart button with hover effects
+- ✅ Fully responsive design
+
+## How to Play
+1. Player 1 starts with X
+2. Click any empty box to place your mark
+3. First to get 3 in a row wins!
+4. Click Restart to play again
+
+## Technologies Used
+- HTML
+- CSS (Flexbox, Grid)
+- JavaScript (DOM Manipulation, Events)
+
+## What I Learned
+- Event handling in JavaScript
+- DOM manipulation techniques
+- Game logic implementation
+- Styling interactive elements
+
+## Live Demo
 
 coming soon....
 
-Project Link: coming soon....
+---
 
-⭐️ If you like this project, give it a star on GitHub!
-
-Made with ❤️ and JavaScript
+*Built with ❤️ by [Mayank Madhukar]*
